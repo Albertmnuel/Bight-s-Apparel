@@ -634,4 +634,101 @@ body{
   }
 
 }
+/* ================= ANIMATIONS ================= */
+@keyframes dropDown{
+  0%{
+    opacity:0;
+    transform:translateY(-120px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+
+@keyframes floatText{
+  0%{
+    transform:translateY(0);
+  }
+  50%{
+    transform:translateY(-10px);
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
+
+@keyframes fadeInUp{
+  0%{
+    opacity:0;
+    transform:translateY(25px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}@media(max-width:768px){
+  .hero-title{
+    font-size:36px;
+  }
+
+  .hero-subtitle{
+    font-size:16px;
+  }
+
+  .hero-overlay{
+    width:85%;
+    padding:18px 20px;
+  }
+}
+
+@media(max-width:480px){
+  .hero-title{
+    font-size:28px;
+  }
+
+  .hero-subtitle{
+    font-size:14px;
+  }
+}
+.created-by{
+  font-size: 16px;
+  font-weight: 600;
+ color: #3f2a1f;
+  text-align: center;
+  margin-top: 20px;
+  animation: floatText 3s ease-in-out infinite;
+  letter-spacing: 1px;
+}
+
+.created-by span{
+  color: #f4c27a;
+  display: inline-block;
+  animation: glowText 2s ease-in-out infinite alternate;
+}
+
+@keyframes floatText{
+  0%{
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50%{
+    transform: translateY(-8px);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+}
+
+@keyframes glowText{
+  0%{
+    text-shadow: 0 0 5px rgba(244, 194, 122, 0.4);
+  }
+  100%{
+    text-shadow: 0 0 15px rgba(244, 194, 122, 1),
+                 0 0 25px rgba(244, 194, 122, 0.8);
+  }
+}
 
