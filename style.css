@@ -362,7 +362,7 @@ body{
 .page-hero{
   height:60vh;
   background:linear-gradient(rgba(58, 29, 24, 0.65), rgba(107, 43, 36, 0.65)),
-  url("images/hero.jpg") center/cover no-repeat;
+  url("hero.jpg") center/cover no-repeat;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -632,4 +632,5 @@ body{
   .hero-subtitle{
     font-size:14px;
   }
+
 }
