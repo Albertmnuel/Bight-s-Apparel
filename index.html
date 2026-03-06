@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bright's Apparel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/logo3.png" alt="Bright's Apparel Logo">
+      <span>Bright's Apparel</span>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      &#9776;
+    </div>
+
+   <ul class="nav-links" id="nav-links">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+  </nav>
+
+  <!-- HERO -->
+ <section class="hero">
+  <img src="images/hero.jpg" alt="Bright's Apparel Hero Banner">
+
+  <div class="hero-overlay">
+    <h1 class="hero-title">Bright's Apparel</h1>
+    <p class="hero-subtitle">Elegant Fashion, Timeless Style</p>
+  </div>
+</section>
+
+  <!-- INTRO -->
+  <section class="intro">
+    <h1>Latest Cloth of Your Choice</h1>
+    <p>
+      At Bright’s Apparel, we bring you stylish and affordable fashion pieces
+      designed to keep you looking elegant, confident, and unique. From gowns,
+      skirts, blouses, shirts, trousers, baggy outfits, bubu gowns, ankara
+      styles, lace dresses and more, we have something beautiful for every taste.
+    </p>
+  </section>
+
+  <!-- COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="section-header">
+      <h2>Our Collection</h2>
+      <p>Fashion pieces carefully selected for beauty, comfort, and class.</p>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="images/gown.jpg" alt="Gown">
+        <div class="card-content">
+          <h3>Gowns</h3>
+          <p>Elegant gowns for special occasions, events, and classy outings.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/skirt.jpg" alt="Skirt">
+        <div class="card-content">
+          <h3>Skirts</h3>
+          <p>Stylish skirts that combine comfort with a modern fashion touch.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/blouse.jpg" alt="Blouse">
+        <div class="card-content">
+          <h3>Blouses</h3>
+          <p>Beautiful blouses made to match different looks and occasions.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/shirt.jpg" alt="Shirt">
+        <div class="card-content">
+          <h3>Shirts</h3>
+          <p>Neat and trendy shirts perfect for casual and smart dressing.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/trouser.jpg" alt="Trouser">
+        <div class="card-content">
+          <h3>Trousers</h3>
+          <p>Well-fitted trousers that add confidence and style to your outfit.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/ankara.jpg" alt="Ankara Style">
+        <div class="card-content">
+          <h3>Ankara Styles</h3>
+          <p>Bold and beautiful ankara designs made for standout fashion lovers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us" id="why-us">
+    <div class="why-box">
+      <h2>Why Choose Bright’s Apparel?</h2>
+      <p>
+        We are known for delivering fashion that is efficient, reliable, and
+        affordable. Our goal is to provide clothing that does not just look good,
+        but also helps you feel confident and comfortable wherever you go.
+      </p>
+
+      <div class="why-points">
+        <div class="point">Efficient Service</div>
+        <div class="point">Reliable Delivery</div>
+        <div class="point">Affordable Price Rate</div>
+        <div class="point">Quality Fashion Pieces</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Order Your Favorite Outfit Today</h2>
+    <p>Step into style with fashion pieces made just for you.</p>
+    <a href="#contact" class="btn">Order Now</a>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Bright’s Apparel</h2>
+    <p>Reach out to place your order or make an enquiry.</p>
+
+    <div class="contact-info">
+      <p><strong>Phone:</strong> 09014389182</p>
+      <p><strong>Email:</strong> bright4ri@gmail.com</p>
+      <p><strong>Facebook:</strong> Omoigberale Brightness</p>
+      <p><strong>TikTok:</strong> Osefanme</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Bright’s Apparel. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

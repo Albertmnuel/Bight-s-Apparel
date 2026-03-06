@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Bright's Apparel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/logo3.png" alt="Bright's Apparel Logo">
+      <span>Bright's Apparel</span>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      &#9776;
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+ <section class="page-hero">
+  <div class="page-hero-content">
+    <h1 class="hero-title">Our Services</h1>
+    <p class="hero-subtitle">Fashion services designed for your style needs</p>
+  </div>
+</section>
+  <section class="page-content">
+    <div class="content-box">
+      <h2>What We Offer</h2>
+      <p>
+        At Bright’s Apparel, we provide a range of fashion services tailored to
+        help our customers look their best. We focus on quality, affordability,
+        and style in every service we render.
+      </p>
+
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Custom Fashion Orders</h3>
+          <p>We create clothing based on your preferred style, design, and fitting.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Ready-Made Outfits</h3>
+          <p>We offer beautiful ready-to-wear fashion pieces for different occasions.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Ankara Styles</h3>
+          <p>Get creative and elegant ankara styles designed for a bold fashion statement.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Event Outfits</h3>
+          <p>We provide classy outfits suitable for parties, ceremonies, and special events.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Affordable Pricing</h3>
+          <p>Our services are delivered at friendly and affordable rates without sacrificing quality.</p>
+        </div>
+
+        <div class="service-card">
+          <h3>Fashion Consultation</h3>
+          <p>We help customers choose styles that best suit their taste and occasion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Bright’s Apparel. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>

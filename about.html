@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Bright's Apparel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/logo3.png" alt="Bright's Apparel Logo">
+      <span>Bright's Apparel</span>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      &#9776;
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+ <section class="page-hero">
+  <div class="page-hero-content">
+    <h1 class="hero-title">About Us</h1>
+    <p class="hero-subtitle">Learn more about Bright’s Apparel</p>
+  </div>
+</section>
+
+  <section class="page-content">
+    <div class="content-box">
+      <h2>Who We Are</h2>
+      <p>
+        Bright’s Apparel is a fashion brand dedicated to providing beautiful,
+        stylish, and affordable clothing for individuals who want to look classy
+        and confident. We focus on creating and delivering outfits that blend
+        elegance, comfort, and modern trends.
+      </p>
+
+      <h2>Our Mission</h2>
+      <p>
+        Our mission is to make quality fashion available at affordable prices
+        while helping our customers express their beauty and confidence through
+        what they wear.
+      </p>
+
+      <h2>Our Vision</h2>
+      <p>
+        Our vision is to become a trusted and admired fashion brand known for
+        reliability, creativity, and customer satisfaction.
+      </p>
+
+      <h2>Our Goal</h2>
+      <p>
+        Our goal is to continue serving our customers with unique clothing
+        styles, excellent service, and fashionable collections that meet
+        different tastes and occasions.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Bright’s Apparel. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+
+</body>
+</html>
